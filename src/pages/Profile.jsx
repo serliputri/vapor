@@ -23,7 +23,7 @@ function Profile() {
             <Link to="/change">
               <span className="side-link">Change Password</span>
             </Link>
-            <Link>
+            <Link to="/login">
               <span className="side-link">Log Out</span>
             </Link>
             <br />

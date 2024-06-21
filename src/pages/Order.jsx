@@ -25,7 +25,7 @@ function Order() {
               <a className="side-link">Change Password</a>
             </Link>
             <br />
-            <Link to="#">
+            <Link to="/login">
               <a className="side-link">Log Out</a>
             </Link>
           </ul>

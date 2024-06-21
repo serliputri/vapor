@@ -18,9 +18,15 @@ import Product3 from "./pages/Product3Page.jsx";
 import Product4 from "./pages/Product4Page.jsx";
 import Product5 from "./pages/Product5Page.jsx";
 import TransferComplete from "./pages/TransferComplete.jsx";
+import VerificationAge from "./pages/VerificationAge.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <VerificationAge />,
+  },
+  {
+    path: "/login",
     element: <Login />,
   },
   {

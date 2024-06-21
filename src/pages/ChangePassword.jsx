@@ -24,7 +24,7 @@ function ChangePassword() {
               <a className="side-link">Change Password</a>
             </Link>
             <br />
-            <Link to="#">
+            <Link to="/login">
               <a className="side-link">Log Out</a>
             </Link>
           </ul>
@@ -35,7 +35,7 @@ function ChangePassword() {
               <label htmlFor="now" className="label">
                 Password Now
               </label>
-              <input type="current-password" id="passwordNow" name="passwordNow" className="input-change" required />
+              <input type="password" id="passwordNow" name="passwordNow" className="input-change" required />
               <span className="password-eye">
                 <i className="fas fa-eye"></i>
               </span>
